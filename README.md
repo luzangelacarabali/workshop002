@@ -141,12 +141,11 @@ venv\Scripts\activate     # en Windows
 
 ```
 
-4. Configura tu base de datos PostgreSQL y las variables de entorno necesarias.
+Gracias por tomarte el tiempo de explorar este proyecto. Ha sido una experiencia enriquecedora combinar la música, los datos y la automatización en una misma arquitectura analítica.
+Si este trabajo te inspiró, te ayudó o simplemente te pareció interesante, no dudes en compartirlo o contribuir.
+¡La música y los datos tienen mucho más que contarnos!
 
-5. Ejecuta Apache Airflow y asegúrate de que el DAG esté habilitado.
+🎶 "Donde terminan las palabras, comienza la música... y con ella, los datos cobran vida."
 
-6. Abre el archivo `.pbix` en Power BI para explorar los dashboards.
 
----
 
-¿Quieres que también te ayude a crear el archivo `requirements.txt`, configurar variables de entorno, o preparar una sección para contribuciones?
