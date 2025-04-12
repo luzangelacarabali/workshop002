@@ -26,8 +26,30 @@ Este proyecto integra datos musicales de múltiples fuentes —Spotify, Premios 
 | Ubuntu Linux        | Sistema operativo de desarrollo                   |
 
 ## 📂 Estructura del Proyecto
+music_awards_pipeline/
+├── dags/
+│   └── airflow_pipeline.py
+├── notebooks/
+│   ├── 00-grammy_raw_load.ipynb
+│   ├── 01-EDA_Spotify.ipynb
+│   ├── 02-EDA_Grammys.ipynb
+│   └── 03-EDA_AudioDB_API.ipynb
+├── src/
+│   ├── extract/
+│   │   ├── spotify.py
+│   │   ├── grammys.py
+│   │   └── audiodb_api.py
+│   ├── transform/
+│   │   ├── spotify_transform.py
+│   │   ├── grammys_transform.py
+│   │   ├── api_enrichment.py
+│   │   └── merge.py
+│   └── db/
+│       └── db_operations.py
+├── powerbi/
+│   └── dashboards.pbix
+└── 
 
-music_awards_pipeline/ ├── dags/ │ └── airflow_pipeline.py ├── notebooks/ │ ├── 00-grammy_raw_load.ipynb │ ├── 01-EDA_Spotify.ipynb │ ├── 02-EDA_Grammys.ipynb │ └── 03-EDA_AudioDB_API.ipynb ├── src/ │ ├── extract/ │ │ ├── spotify.py │ │ ├── grammys.py │ │ └── audiodb_api.py │ ├── transform/ │ │ ├── spotify_transform.py │ │ ├── grammys_transform.py │ │ ├── api_enrichment.py │ │ └── merge.py │ └── db/ │ └── db_operations.py ├── powerbi/ │ └── dashboards.pbix
 
 ## 🧬 Pipeline de Datos (ETL)
 
