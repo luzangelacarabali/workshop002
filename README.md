@@ -139,7 +139,7 @@ source venv/bin/activate  # en Linux/macOS
 venv\Scripts\activate     # en Windows
 ```
 
-```
+
 
 Gracias por tomarte el tiempo de explorar este proyecto. Ha sido una experiencia enriquecedora combinar la música, los datos y la automatización en una misma arquitectura analítica.
 Si este trabajo te inspiró, te ayudó o simplemente te pareció interesante, no dudes en compartirlo o contribuir.
