@@ -124,8 +124,12 @@ Dashboards incluidos:
 - Aplicar modelos de machine learning para predicción de nominaciones
 
 ---
+📥 Instalación y Uso
+Clona este repositorio:
+```bash
+https://github.com/luzangelacarabali/workshop002.git
+```
 
-## 📥  Uso
 
 2. Crea y activa un entorno virtual:
 
