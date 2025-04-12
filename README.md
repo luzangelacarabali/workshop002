@@ -1,6 +1,4 @@
-¡Claro! Aquí tienes el README organizado, con una estructura clara y profesional:
 
----
 
 # 🎶 Integración Analítica de Datos Musicales: Spotify, Premios Grammy y TheAudioDB con Apache Airflow y Power BI
 
